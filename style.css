@@ -1,0 +1,46 @@
+
+body{
+    background-color: rgb(24, 23, 29);
+    color: aliceblue;
+}
+#nome {
+font-family:'Courier New', Courier, monospace;}
+
+.estilo1{
+    font-style: italic;
+    color: coral;
+    font;
+}
+a{
+    background-color: aliceblue;
+}
+#sobremim{
+    font-family:monospace;
+}
+
+      .criatividade {
+          background-color: rgb(14, 48, 36);
+          font-family:sans-serif
+          
+      }
+      .pessoal{
+          color: rgb(219, 49, 148);
+      }
+      .comunica {
+          font-style: oblique;
+          font-size: 2em;
+      }
+
+      .atualiza {
+
+        color: rgb(218, 198, 169);
+      text-decoration: underline;
+        
+    }
+      .equipe{
+          font-size: 20px; 
+       font-style: italic; }
+      .determina
+      {
+          color: chocolate;
+      }
