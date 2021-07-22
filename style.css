@@ -13,6 +13,7 @@ font-family:'Courier New', Courier, monospace;}
 }
 a{
     background-color: aliceblue;
+    padding: 10px;
 }
 #sobremim{
     font-family:monospace;
