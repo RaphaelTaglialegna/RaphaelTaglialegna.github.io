@@ -2,19 +2,28 @@
 body{
     background-color: rgb(24, 23, 29);
     color: aliceblue;
+    padding: 3%;
 }
+
+.abilities li:nth-child(odd){
+    background-color: silver;
+    border: 1px solid gold;
+    color: black;
+}
+
 #nome {
 font-family:'Courier New', Courier, monospace;}
 
 .estilo1{
     font-style: italic;
     color: coral;
-    font;
 }
-a{
+
+    a{
     background-color: aliceblue;
     padding: 10px;
 }
+
 #sobremim{
     font-family:monospace;
 }
@@ -45,3 +54,30 @@ a{
       {
           color: chocolate;
       }
+      #head_title{
+          text-align: center;
+        }
+
+ 
+    .first_head{
+      display: inline-block;
+      width: 45%;
+      vertical-align: top;
+      margin: 5px;
+
+   
+  }
+
+  .head_container{
+      max-width: 1200px;
+      margin: 0 auto;
+   
+  }
+  #Rapha_photo{
+      padding: 5px;
+      background-color: gold;
+   
+  }
+
+  
+  
