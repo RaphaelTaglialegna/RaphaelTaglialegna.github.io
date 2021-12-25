@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "./static/css/main.4438ad82.css",
-    "main.js": "./static/js/main.ed39f1e3.js",
-    "static/js/787.ba433e75.chunk.js": "./static/js/787.ba433e75.chunk.js",
-    "static/media/raphaCat.png": "./static/media/raphaCat.a72185a371f7ebd9547d.png",
-    "static/media/contactRapha.png": "./static/media/contactRapha.b124d7ad5034319143f5.png",
-    "static/media/raphaMeditation.png": "./static/media/raphaMeditation.4ed77b2c0c5fd442a888.png",
-    "static/media/logoFace.png": "./static/media/logoFace.7fb7f95c9c0347f2598d.png",
-    "index.html": "./index.html",
-    "main.4438ad82.css.map": "./static/css/main.4438ad82.css.map",
-    "main.ed39f1e3.js.map": "./static/js/main.ed39f1e3.js.map",
-    "787.ba433e75.chunk.js.map": "./static/js/787.ba433e75.chunk.js.map"
+    "main.css": "/RaphaelTaglialegna.github.io/static/css/main.f272a335.css",
+    "main.js": "/RaphaelTaglialegna.github.io/static/js/main.027e0260.js",
+    "static/js/787.52b5d2ba.chunk.js": "/RaphaelTaglialegna.github.io/static/js/787.52b5d2ba.chunk.js",
+    "static/media/raphaCat.png": "/RaphaelTaglialegna.github.io/static/media/raphaCat.a72185a371f7ebd9547d.png",
+    "static/media/contactRapha.png": "/RaphaelTaglialegna.github.io/static/media/contactRapha.b124d7ad5034319143f5.png",
+    "static/media/raphaMeditation.png": "/RaphaelTaglialegna.github.io/static/media/raphaMeditation.4ed77b2c0c5fd442a888.png",
+    "static/media/logoFace.png": "/RaphaelTaglialegna.github.io/static/media/logoFace.7fb7f95c9c0347f2598d.png",
+    "index.html": "/RaphaelTaglialegna.github.io/index.html",
+    "main.f272a335.css.map": "/RaphaelTaglialegna.github.io/static/css/main.f272a335.css.map",
+    "main.027e0260.js.map": "/RaphaelTaglialegna.github.io/static/js/main.027e0260.js.map",
+    "787.52b5d2ba.chunk.js.map": "/RaphaelTaglialegna.github.io/static/js/787.52b5d2ba.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4438ad82.css",
-    "static/js/main.ed39f1e3.js"
+    "static/css/main.f272a335.css",
+    "static/js/main.027e0260.js"
   ]
 }
