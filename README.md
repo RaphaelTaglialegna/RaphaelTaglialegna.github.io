@@ -1,4 +1,4 @@
-# Welcome to my portifolio! 
+# Welcome to my portfolio! 
 
 Here I show you my developer skills and my stacks. 
 If you want to contact me will be great! 
