@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.4438ad82.css",
-    "main.js": "/static/js/main.ea461845.js",
-    "static/js/787.ba433e75.chunk.js": "/static/js/787.ba433e75.chunk.js",
-    "static/media/raphaCat.png": "/static/media/raphaCat.a72185a371f7ebd9547d.png",
-    "static/media/contactRapha.png": "/static/media/contactRapha.b124d7ad5034319143f5.png",
-    "static/media/raphaMeditation.png": "/static/media/raphaMeditation.4ed77b2c0c5fd442a888.png",
-    "static/media/logoFace.png": "/static/media/logoFace.7fb7f95c9c0347f2598d.png",
-    "index.html": "/index.html",
-    "main.4438ad82.css.map": "/static/css/main.4438ad82.css.map",
-    "main.ea461845.js.map": "/static/js/main.ea461845.js.map",
-    "787.ba433e75.chunk.js.map": "/static/js/787.ba433e75.chunk.js.map"
+    "main.css": "./static/css/main.4438ad82.css",
+    "main.js": "./static/js/main.ed39f1e3.js",
+    "static/js/787.ba433e75.chunk.js": "./static/js/787.ba433e75.chunk.js",
+    "static/media/raphaCat.png": "./static/media/raphaCat.a72185a371f7ebd9547d.png",
+    "static/media/contactRapha.png": "./static/media/contactRapha.b124d7ad5034319143f5.png",
+    "static/media/raphaMeditation.png": "./static/media/raphaMeditation.4ed77b2c0c5fd442a888.png",
+    "static/media/logoFace.png": "./static/media/logoFace.7fb7f95c9c0347f2598d.png",
+    "index.html": "./index.html",
+    "main.4438ad82.css.map": "./static/css/main.4438ad82.css.map",
+    "main.ed39f1e3.js.map": "./static/js/main.ed39f1e3.js.map",
+    "787.ba433e75.chunk.js.map": "./static/js/787.ba433e75.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4438ad82.css",
-    "static/js/main.ea461845.js"
+    "static/js/main.ed39f1e3.js"
   ]
 }
