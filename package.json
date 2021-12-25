@@ -1,7 +1,6 @@
 {
-  "name": "RaphaelTaglialegna.github.io",
+  "name": "myportifolio-project",
   "version": "0.1.0",
-  "homepage": "https://raphaeltaglialegna.github.io/RaphaelTaglialegna.github.io",
   "private": true,
   "dependencies": {
     "@craco/craco": "^6.4.3",
@@ -11,7 +10,6 @@
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",
     "autoprefixer": "^10.4.0",
-    "gh-pages": "^3.2.3",
     "postcss": "^8.4.5",
     "react": "^17.0.2",
     "react-burger-menu": "^3.0.6",
@@ -28,8 +26,6 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
