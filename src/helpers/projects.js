@@ -15,7 +15,7 @@ export const projects = [
   },
   
   {
-    name: "Trufo Project",
+    name: "Trunfo Project",
     linkProject: "https://project-trunfo.vercel.app/",
     linkGit: "https://github.com/RaphaelTaglialegna/project-trunfo",
     img: "https://i.ibb.co/cNhhndj/trunfo-project.png",
