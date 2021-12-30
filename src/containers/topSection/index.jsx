@@ -28,11 +28,10 @@ function TopSection() {
             <div className="sm:text-center lg:text-left">
               <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
                 <span className="block xl:inline">Hello world!!! I'm Raphael Taglialegna</span>{' '}
-                <span className="block text-indigo-600 xl:inline">front end developer</span>
+                <span className="block text-indigo-600 xl:inline">Front-End developer</span>
               </h1>
               <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-                I just change my career to make difference in the people's life using tecnology. Let's do it!
-              </p>
+              New dreams, new goals, new career to make a difference the people's lives using technology. Let's do it!              </p>
               <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                 <div className="rounded-md shadow">
                   <Link

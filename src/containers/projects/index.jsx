@@ -81,7 +81,7 @@ function ProjectsSection() {
                 <span className="block text-indigo-600 xl:inline">projects</span>
               </h1>
               <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-                Most of the projects was made with using HTML, CSS, JS, React JS and the frameworks Bulma or Bootstrap. Curiosity this site I made using Tailwind ;)
+              Most of the projects were made using HTML, CSS, JS, React JS, and the frameworks Bulma or Bootstrap. Curiosity this site was built with Tailwind ;)
               </p>
             </div>
     

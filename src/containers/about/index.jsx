@@ -43,17 +43,17 @@ function About() {
               <div className="my-10 pb-5 overflow-auto lg:h-[550px] sm:h-[500px] h-[400px] ">
                 
                 <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-                  I have been working with people sice a long time ago, teaching then acting skills to change their lifes. But tecnology is my passion too, now I wish put both together and tranform people's life using tecnology and art!
+                I have been working with people a long time ago, teaching them acting skills to change their lives. Technology has become my passion, and I wish to put both together and transform people's lives using technology. Now I feel prepared and excited to start working, joining my new career with my old background.
   
                 </p>
                 
                 <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-                For you know me better I'm 34 years old, family(wife and one daughter (so cute)), living in Brazil, actally me and my family planning to move to Cananda, so we are able to realocate!
+                For you know me better I'm 34 years old, family(wife and one daughter (so cute)), living in Brazil, actually me and my family planning to move to Canada, we can relocate!
                 </p>
                 
                 <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-                Front end has been my stack that I'm really enjoy to work, but I'm beginning to learn Back end, to become a Full Stack Developer.
-                I have been learning and making projects with these technologies below:
+                The Front-End has been my stack that I enjoy working, but I'm beginning to learn Back-End to become a Full Stack Developer.
+                I have been learning and building projects with these technologies below:
                 </p>
                 <div className="flex justify-around mt-5">
                   <img width="40px" alt="technologies" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" title = "HTML5"/>
@@ -65,7 +65,7 @@ function About() {
                 </div>
   
                 <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-                 Also we can stop to study, so in a couple of days I will able to start to work with these technologies that I'm learning.
+                Also, we can't stop studying, and we have to be in touch with new stacks and features. These are the stacks that I have been learning:
                 </p>
                 <div className="flex justify-around mt-5">
                   <img width="40px" alt="technologies" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" title = "JAVA"/>

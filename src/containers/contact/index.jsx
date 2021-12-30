@@ -6,6 +6,8 @@ import Navbar from "../../components/header/NavBar";
 import contactRapha from '../../images/contactRapha.png';
 import { FaWhatsapp, FaTelegram } from "react-icons/fa";
 import { MdOutlinePhoneIphone } from "react-icons/md";
+import FooterSection from "../../components/Footer"
+
 
 const ContactContainer = styled.div`
   ${tw`
@@ -28,15 +30,14 @@ function Contact() {
 
           <Navbar />
 
-          <main className="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
+          <main className="mt-7 max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
             <div className="sm:text-center lg:text-left">
               <h1 className="text-4xl tracking-tight font-extrabold text-white sm:text-5xl md:text-6xl">
                 <span className="block xl:inline">Let's work</span>{' '}
                 <span className="block text-indigo-600 xl:inline">together</span>
               </h1>
               <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-                Send a massage to me and I'll be really glad to talk about everything with you, even about my career's future!
-              </p>
+              Send a message to me and I'll be really glad to talk about everything with you, even about my career's future!              </p>
               
               <div className="flex col-auto">
                 <div className="my-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start flex flex-col">
@@ -62,7 +63,7 @@ function Contact() {
       </div>}
 
               </div>             
-              <div className="my-10">
+              <div className="my-8">
                 <p className="mt-5 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0 flex items-center">
                   You also can call, text, &nbsp; 
                   <a href="https://api.whatsapp.com/send?phone=5519984261112&text=Hello Raphael! " target="_blank" rel="noreferrer"><FaWhatsapp className="text-green-400 hover:text-4xl"/> </a>
@@ -78,7 +79,9 @@ function Contact() {
               </div>          
             </div>
           </main>
+        <FooterSection/>
         </div>
+
       </div>
       {isBigScree &&
         <div className="lg:max-w-2xl" >
@@ -88,6 +91,7 @@ function Contact() {
           alt="Raphael Taglialegna"
         />
       </div>}
+
     </ContactContainer>
    );
 }
