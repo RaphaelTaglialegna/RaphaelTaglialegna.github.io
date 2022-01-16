@@ -39,7 +39,7 @@ export default function Navbar() {
                 <Link 
                   key={item.name} 
                   to={item.href} 
-                  className="font-medium text-gray-500 hover:text-gray-900 hover:bg-primary"
+                  className="font-medium text-gray-400 hover:text-gray-900 hover:bg-primary"
                   smooth={"easeInOutQuad"}
                   duration={1500}
                 >

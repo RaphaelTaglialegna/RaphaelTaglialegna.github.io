@@ -21,8 +21,8 @@ const ContactContainer = styled.div`
   `};
 `;  
 
-function Contact() {
-  const isBigScree = useMediaQuery({minWidth: 1024});
+export default function Contact() {
+  const isBigScreen = useMediaQuery({minWidth: 1024});
   return ( 
     <ContactContainer name="Contact">
       <div className="max-w-7xl" >
@@ -36,7 +36,7 @@ function Contact() {
                 <span className="block xl:inline">Let's work</span>{' '}
                 <span className="block text-indigo-600 xl:inline">together</span>
               </h1>
-              <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
+              <p className="mt-3 text-base text-gray-400 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
               Send a message to me and I'll be really glad to talk about everything with you, even about my career's future!              </p>
               
               <div className="flex col-auto">
@@ -53,7 +53,7 @@ function Contact() {
                   <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" target="_blank" alt="gmail" className="mt-5 lg:w-52 lg:ml-72 lg:hover:w-60"/>
                 </a>
                 </div>
-                {!isBigScree &&
+                {!isBigScreen &&
         <div className="lg:max-w-2xl" >
         <img
           className="w-60 object-cover "
@@ -64,7 +64,7 @@ function Contact() {
 
               </div>             
               <div className="my-8">
-                <p className="mt-5 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0 flex items-center">
+                <p className="mt-5 text-base text-gray-400 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0 flex items-center">
                   You also can call, text, &nbsp; 
                   <a href="https://api.whatsapp.com/send?phone=5519984261112&text=Hello Raphael! " target="_blank" rel="noreferrer"><FaWhatsapp className="text-green-400 hover:text-4xl"/> </a>
                   &nbsp; or &nbsp; 
@@ -73,7 +73,7 @@ function Contact() {
                     <FaTelegram className="text-blue-400 hover:text-4xl" />
                   </a>&nbsp; me!!
                 </p>
-                <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0 font-semibold flex items-center">
+                <p className="mt-3 text-base text-gray-00 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0 font-semibold flex items-center">
                  <MdOutlinePhoneIphone />&nbsp; + 55 19 98426-1112
                 </p>      
               </div>          
@@ -83,7 +83,7 @@ function Contact() {
         </div>
 
       </div>
-      {isBigScree &&
+      {isBigScreen &&
         <div className="lg:max-w-2xl" >
         <img
           className=" w-full lg:h-screen object-cover sm:h-72 md:h-96 "
@@ -94,6 +94,4 @@ function Contact() {
 
     </ContactContainer>
    );
-}
-
-export default Contact;
+} 

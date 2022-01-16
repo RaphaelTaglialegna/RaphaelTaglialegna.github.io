@@ -12,7 +12,7 @@ import tw from "twin.macro";const MyFooter = styled.div`
 function FooterSection() {
   return ( 
     <MyFooter>
-          <p className="mx-3 text-base text-gray-500">
+          <p className="mx-3 text-base text-gray-400">
               Created by Raphael using framework Tailwind. 2021
           </p>
     </MyFooter>

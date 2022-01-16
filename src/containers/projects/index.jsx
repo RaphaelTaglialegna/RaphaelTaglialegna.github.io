@@ -77,11 +77,11 @@ function ProjectsSection() {
           <main className="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
             <div className="sm:text-center lg:text-left">
               <h1 className="text-4xl tracking-tight font-extrabold text-white sm:text-5xl md:text-6xl">
-                <span className="block xl:inline">My front end</span>{' '}
+                <span className="block xl:inline">My front-end</span>{' '}
                 <span className="block text-indigo-600 xl:inline">projects</span>
               </h1>
-              <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-              Most of the projects were made using HTML, CSS, JS, React JS, and the frameworks Bulma or Bootstrap. Curiosity this site was built with Tailwind ;)
+              <p className="mt-3 text-base text-gray-400 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
+              Most of the projects were developed using HTML, CSS, JS, React JS, and the  Bulma or Bootstrap frameworks. Fun fact this site was built with Tailwind ;)
               </p>
             </div>
     
