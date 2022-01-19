@@ -1,5 +1,12 @@
 export const projects = [
   {
+    name: "Recipes App",
+    linkProject: "https://recipes-app-swart.vercel.app/",
+    linkGit: "https://github.com/RaphaelTaglialegna/Recipes-App",
+    img: "https://i.ibb.co/BtRvDgx/Front-Page-Recipes-App-Desktop.png",
+    description:"Recipes App Project was developed in group and was the last project in Front-End module. We work with, React.js, used hooks and functional components, the CSS was made with Tailwind CSS and styled component.",
+  },
+  {
     name: "Trybe Wallet",
     linkProject: "https://project-trybe-wallet-neon.vercel.app/",
     linkGit: "https://github.com/RaphaelTaglialegna/Project-Trybe-Wallet",
