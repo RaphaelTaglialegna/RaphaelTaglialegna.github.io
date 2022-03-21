@@ -1,19 +1,15 @@
-import React from 'react';
+import React from 'react'
 import { Fragment } from 'react'
 import { Popover, Transition } from '@headlessui/react'
 import { MenuIcon, XIcon } from '@heroicons/react/outline'
 import { Link } from 'react-scroll/modules';
 import LogoRapha from '../../../images/logoFace.png'
-
-
-const navigation = [
-    { name: 'Home', href: 'Home' },
-    { name: 'Projects', href: 'Projects' },
-    { name: 'About', href: 'About' },
-    { name: 'Contact', href: 'Contact' },
-  ]
+import { i18n } from '../../../translate/i18n'
 
 export default function Navbar() {
+  const navigation = i18n.t('navigation',{ returnObjects: true })
+  
+  
     return (  
         <Popover>
         <div className="mt-3 relative pt-6 px-4 sm:px-6 lg:px-8">
@@ -46,6 +42,7 @@ export default function Navbar() {
                   {item.name}
                 </Link>
               ))}
+           
             </div>
           </nav>
         </div>
@@ -83,6 +80,7 @@ export default function Navbar() {
                     {item.name}
                   </Link>
                 ))}
+                
               </div>
             </div>
           </Popover.Panel>

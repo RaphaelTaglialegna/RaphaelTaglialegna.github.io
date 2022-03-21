@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-scroll/modules";
 import styled from "styled-components";
 import tw from "twin.macro";
@@ -15,14 +15,54 @@ const TopSectionContainer = styled.div`
     justify-center
     lg:flex
   `};
-`;    
+`; 
+
+const I18N_STORAGE_KEY = 'i18nextLng'
+const RELOAD = window.location;
 function TopSection() {
-  return ( 
+  const [language] = useState(localStorage.getItem(I18N_STORAGE_KEY))
+  const [checked, setChecked] = useState(language === 'pt-BR'? false : true);
+  
+  const handleSelectChange = () => {
+    if(!checked) {
+      localStorage.setItem(I18N_STORAGE_KEY, 'en-US')
+      setChecked(!checked)
+    } else { 
+      localStorage.setItem(I18N_STORAGE_KEY, 'pt-BR')
+      setChecked(!checked)
+    }
+    window.location = RELOAD;
+    }         
+        
+  return (
+    
     <TopSectionContainer name="Home">
       <div className="max-w-7xl" >
         <div className="z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg:h-screen lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
-
+        <div className="flex justify-around items-center">
           <Navbar />
+
+          <div className='flex justify-end items-center space-x-2 h-fit'>
+              <span className='text-sm font-medium text-gray-400'>PT</span>
+              <div>
+                <input 
+                type="checkbox" 
+                name="" 
+                id="toggle" 
+                className="hidden"
+                checked={checked}
+                onChange={() => handleSelectChange()} 
+                />
+                <label for='toggle' className='cursor-pointer'>
+                  <div className='w-9 h-5 flex items-center bg-gray-300 rounded-full p-1'>
+                    <div className='toggle-dot w-4 h-4 bg-blue-500 rounded-full shadow-md transform duration-300 ease-out'/>
+                  </div>
+                </label>  
+              </div>
+              <span className='text-sm font-medium text-gray-400'>EN</span>
+            </div>      
+
+        </div>
 
           <main className="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
             <div className="sm:text-center lg:text-left">
@@ -57,7 +97,7 @@ function TopSection() {
         />
       </div>
     </TopSectionContainer>
-   );
-}
+  );
+};
 
 export default TopSection;

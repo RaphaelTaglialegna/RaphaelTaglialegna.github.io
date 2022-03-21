@@ -1,4 +1,3 @@
-import "./App.css";
 import tw from "twin.macro";
 import TopSection from "./containers/topSection";
 import ProjectsSection from "./containers/projects";
