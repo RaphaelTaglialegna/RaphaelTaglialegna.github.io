@@ -1,8 +1,10 @@
 import tw from "twin.macro";
-import TopSection from "./containers/topSection";
-import ProjectsSection from "./containers/projects";
-import About from "./containers/about";
-import Contact from "./containers/contact";
+import Home from "./components/containers/home";
+import ProjectsSection from "./components/containers/projects";
+import About from "./components/containers/about";
+import Contact from "./components/containers/contact";
+import './App.scss'
+
 
 const  AppContainer = tw.div`
     flex
@@ -13,7 +15,7 @@ const  AppContainer = tw.div`
 function App() {
   return (
     <AppContainer>
-      <TopSection />
+      <Home />
       <ProjectsSection />
       <About />
       <Contact />

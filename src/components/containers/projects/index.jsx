@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import tw from "twin.macro";
-import Navbar from "../../components/header/NavBar";
+import Navbar from "../../header/NavBar"; 
 import { projects } from "../../helpers/projects";
 import { FaGithub } from "react-icons/fa";
 

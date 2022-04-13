@@ -2,11 +2,11 @@ import React from "react";
 import styled from "styled-components";
 import { useMediaQuery } from "react-responsive";
 import tw from "twin.macro";
-import Navbar from "../../components/header/NavBar";
-import contactRapha from '../../images/contactRapha.png';
+import Navbar from "../../header/NavBar";
+import contactRapha from '../../../assets/images/contactRapha.png';
 import { FaWhatsapp, FaTelegram } from "react-icons/fa";
 import { MdOutlinePhoneIphone } from "react-icons/md";
-import FooterSection from "../../components/Footer"
+import FooterSection from "../../Footer"
 
 
 const ContactContainer = styled.div`

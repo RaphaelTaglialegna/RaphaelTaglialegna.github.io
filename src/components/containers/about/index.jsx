@@ -2,8 +2,8 @@ import React from "react";
 import { useMediaQuery } from "react-responsive";
 import styled from "styled-components";
 import tw from "twin.macro";
-import Navbar from "../../components/header/NavBar";
-import raphaMeditation from '../../images/raphaMeditation.png';
+import Navbar from "../../header/NavBar";
+import raphaMeditation from '../../../assets/images/raphaMeditation.png';
 
 const AboutContainer = styled.div`
   ${tw`
