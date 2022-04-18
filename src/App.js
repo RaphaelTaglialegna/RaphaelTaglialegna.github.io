@@ -1,8 +1,8 @@
 import tw from "twin.macro";
-import Home from "./components/containers/home";
-import ProjectsSection from "./components/containers/projects";
-import About from "./components/containers/about";
-import Contact from "./components/containers/contact";
+import Home from "./components/pages/home";
+import ProjectsSection from "./components/pages/projects";
+import About from "./components/pages/about";
+import Contact from "./components/pages/contact";
 import './App.scss'
 
 
