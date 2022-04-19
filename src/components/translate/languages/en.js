@@ -19,23 +19,29 @@ const messages = {
              //Abtout  
             titleWhat: ['W','h','a','t',' ','a','b','o','u','t',' '],
             titleAbout: ['m','e','?'],
+            //Contact 
+            titleLets: ['L','e','t',"'",'s',' ','w','o','r','k',' '],
+            titleTogether: ['t','o','g','e','t','h','e','r','?'],
             },
         
           messages: {
-            projText: 'Most of the projects were developed using HTML, CSS, JS, React JS, and the  Bulma or Bootstrap frameworks. Fun fact this site was built with Tailwind',
+            projText: 'Here is my frontend and backend projects.',
             about:{
-                p1:"I have been working with people for a long time, teaching them acting skills. Technology has become my passion, too, and I wish to combine both areas together, so I can transform people's lives. Now, I feel prepared and excited to start working, and to combine my new career with my old background.",
-                p2:"I am a 34-years-old Brazilian guy, I live in Brazil and I have a beautiful family (a wife and one daughter, she is cute). We plan to move to Canada in the near future.",
-                p3:"Front-end is the stack I enjoy the most, but I am also learning back-end, so I can become a full stack developer. I've being studying, and building projects with the following technologies:",
+                p1:"I am a 34-years-old Brazilian guy, I'm from in Brazil. I'm married and father of a little and beautiful girl and two cats (Ginger and Baby). As a good Sagittarius, I'm a person who loves to have fun and be with friends.",
+                p2:"Technology has become my passion also to solve problems,  decided to change my career and become a developer, looking for new challenges.",
+                p3:"Currently, I'm looking for my first opportunity as a programmer. In my training, I specialized in the following technologies below:",
                 p4:"Furthermore, we cannot stop studying, we should expose ourselves to new challenges and technologies, so we can grow.",
                 p5:"Here are other technologies, I have been also studying:"
-            }
+            },
 
+            contact: "I am interested in freelance opportunities - especially ambitious or large projects. However, if you have other request or question, don't hesitate to contact me using below form either."
 
           },
 
           buttons: {
-              getStart: 'Get started'
+              getStart: 'Get started',
+              send: 'SEND'
+
           },
       }
   }

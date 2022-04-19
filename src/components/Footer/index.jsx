@@ -6,14 +6,15 @@ import tw from "twin.macro";const MyFooter = styled.div`
     bg-black
     flex-auto
     justify-center
-    mb-3
+    mb-4
+
   `};
 `;    
 function FooterSection() {
   return ( 
     <MyFooter>
-          <p className="mx-3 text-base text-gray-400">
-              Created by Raphael using framework Tailwind. 2021
+          <p className="mx-3 text-base text-gray-400 text-center m-2">
+              Created by Raphael Taglialegna using React and framework Tailwind. 2021
           </p>
     </MyFooter>
    );

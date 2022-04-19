@@ -51,8 +51,6 @@ export default function Navbar() {
                   </Popover.Button>
                 </div>
               </div>
-               {/*Inicio dos Links de Navegação  */}
-              <NavegationComponent />
             </div>
           </Popover.Panel>
         </Transition>

@@ -36,7 +36,7 @@ function Home() {
             />
               </h1>
               <p className="p1">
-                <span >Full Stack Developer</span><span >|</span>
+                <span >JavaScript</span><span >|</span>
                 <span >React.js   </span><span >|</span>
                 <span >TypeScript</span><span >|</span>
                 <span >Node.js</span>

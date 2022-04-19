@@ -16,7 +16,7 @@ export default function NavegationComponent(){
               <Link 
                 key={item.name} 
                 to={item.href} 
-                className="text-xl font-medium text-gray-400 hover:text-gray-900 hover:bg-yellow-400"
+                className="text-xl font-extrabold text-gray-500 hover:text-gray-900 hover:bg-yellow-400"
                 smooth={"easeInOutQuad"}
                 duration={1500}
               >

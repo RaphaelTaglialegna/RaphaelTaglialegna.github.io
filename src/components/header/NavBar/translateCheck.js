@@ -20,7 +20,7 @@ export default function TranslateCheckButton() {
   
     return (  
       <div className='flex justify-end items-center space-x-2 h-fit'>
-      <span className='text-sm font-medium text-gray-400'>PT</span>
+      <span className='text-sm font-extrabold text-gray-500'>PT</span>
       <div>
         <input 
         type="checkbox" 
@@ -36,7 +36,7 @@ export default function TranslateCheckButton() {
           </div>
         </label>  
       </div>
-      <span className='text-sm font-medium text-gray-400'>EN</span>
+      <span className='text-sm font-extrabold text-gray-500'>EN</span>
     </div>     
     );
 }

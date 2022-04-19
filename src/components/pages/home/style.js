@@ -3,7 +3,7 @@ import tw from "twin.macro";
 
 const HomeContainer = styled.div`
   ${tw`
-    width[80%]
+    width[85%]
     relative
     m-auto
     h-screen
@@ -43,8 +43,9 @@ const MainContent = styled.main`
 
   .h1 {
     ${tw`
-    text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl
-    `};
+     tracking-tight font-extrabold text-gray-900   `};
+    font-size: 3.5vw;
+    line-height: 1;
   }
   
   .p1 {
