@@ -27,7 +27,7 @@ const ProjectsSectionContainer = styled.div`
   `; 
 const ButtonProjects = styled.a`  
 ${tw`
-   mx-4 w-32 h-8 sm:h-10 border border-transparent text-sm sm:text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 flex justify-center items-center
+   mx-4 w-28 h-7 border border-transparent text-sm sm:text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 flex justify-center items-center
 `};
 `; 
   

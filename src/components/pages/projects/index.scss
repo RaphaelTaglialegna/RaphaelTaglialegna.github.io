@@ -38,8 +38,8 @@ img {
 .card {
   display: flex;
   flex-direction: column;
-  width: 92%;
-  height: clamp(28rem, calc(28rem + 2vw), 30rem);
+  width: 97%;
+  height: clamp(28rem, calc(28rem + 2vw), 28rem);
   overflow: hidden;
   box-shadow: 0 .2rem 2rem rgba(131, 129, 129, 0.1);
   border-radius: 1em;
