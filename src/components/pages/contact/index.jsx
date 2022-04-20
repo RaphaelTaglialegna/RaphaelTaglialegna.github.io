@@ -42,9 +42,9 @@ export default function Contact() {
     <ContactContainer name="Contact">
       <div className="divContainer" >
         <Navbar />
-        <div className="flex h-full w-full mt-10">
-          <main className="w-full h-full">
-            <div className="w-full">
+        <div className="flex h-full">
+          <main className="h-full w-full lg:w-1/2 mt-10 mx-2">
+            <div className="lg:w-full w-11/12">
               <h1 className="text-4xl tracking-tight font-extrabold text-white sm:text-5xl md:text-6xl">
                 <AnimatedLetters
                   letterClass='white text-animate-hover'
@@ -55,7 +55,7 @@ export default function Contact() {
                   strArray={titles.titleTogether}
                 />
               </h1>
-              <p className="mt-3 text-base text-gray-400 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">{messages.contact}
+              <p className="mt-3 text-base break-words text-gray-400 sm:mt-5 sm:text-lg md:mt-5 md:text-xl lg:mx-0">{messages.contact}
               </p>
             </div>      
 
@@ -91,9 +91,9 @@ export default function Contact() {
           </main>        
         
         {isBigScreen &&
-          <div className="" >
+          <div className="containerContact w-full h-full" >
           <img
-            className=" w-full lg:h-screen object-cover sm:h-72 md:h-96 "
+            className="w-full h-full"
             src={contactRapha}
             alt="Raphael Taglialegna"
             />

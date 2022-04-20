@@ -4,28 +4,53 @@ import { projects } from "../../helpers/projects";
 import { FaGithub } from "react-icons/fa";
 import { ButtonProjects, ProjectSectionWrapper, ProjectsSectionContainer } from "./style";
 import './index.scss'
-import AliceCarousel from 'react-alice-carousel';
+import ReactCarousel from 'react-alice-carousel';
 import 'react-alice-carousel/lib/alice-carousel.css';
 import AnimatedLetters from "../../AnimatedLetters";
 import { i18n } from '../../translate/i18n'
 
+
 const handleDragStart = (e) => e.preventDefault();
+
+let desktopBreakpoints = {
+  stagePadding: {
+    paddingLeft: 50, // in pixels
+    paddingRight: 50
+  },
+  responsive: {
+    0: {
+      items: 1
+    },
+    820: {
+      items: 2
+    },
+
+    1024: {
+      items: 3
+    }
+  }
+};
+
+let options = {
+  mouseTrackingEnabled: true,
+  dotsDisabled: true,
+  swipeDisabled: false,
+  preservePosition: true
+};
 
 function ProjectsSection() {
   const titles = i18n.t('titles',{ returnObjects: true });
   const messages = i18n.t('messages',{ returnObjects: true });
-
-  const responsive = {
-    0: { items: 1 },
-    568: { items: 2 },
-    1024: { items: 3 },
-};
  
+const sliderOptions = {
+  ...options,
+  ...desktopBreakpoints
+};
   return ( 
     <ProjectsSectionContainer name="Projects">      
         <div className="divContainer">
           <Navbar />
-          <main className="mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-10 lg:px-8 xl:mt-15">
+          <main className="mx-auto max-w-7xl px-4 mt-6 sm:mt-12 sm:px-6 md:mt-16 lg:mt-10 lg:px-8 xl:mt-15">
             <div className="sm:text-center lg:text-left">
               <h1 className="text-4xl tracking-tight font-extrabold text-white sm:text-5xl md:text-6xl">
               <AnimatedLetters
@@ -43,10 +68,12 @@ function ProjectsSection() {
             </div>
     
             <ProjectSectionWrapper >    
-              < AliceCarousel 
-              mouseTracking 
+              < ReactCarousel
+              alice-carousel
+              autoWidth  
+              infinite
               disableDotsControls={true} 
-              responsive={responsive}
+              {...sliderOptions}
               controlsStrategy="alternate" 
               items= {projects.map((project, idx) => {
                   return (                                      
@@ -64,14 +91,13 @@ function ProjectsSection() {
                           <div className="flex justify-center">
                             <ButtonProjects href={project.linkProject}  target="_blank" rel="noreferrer">
                               Go Project
-                            </ButtonProjects>           
+                            </ButtonProjects>        
                 
                             <ButtonProjects href={project.linkGit} target="_blank" rel="noreferrer">
                               <span><FaGithub className="mr-2"/></span>
                               <span>Go Git</span> 
                             </ButtonProjects>
                           </div>
-                       
                       </div>
                     </div>
                 )})} />

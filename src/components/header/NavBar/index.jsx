@@ -1,5 +1,8 @@
 import React  from 'react';
 import { Fragment } from 'react';
+import { i18n } from '../../translate/i18n'
+import { Link } from 'react-scroll/modules';
+
 import { Popover, Transition } from '@headlessui/react';
 import { MenuIcon, XIcon } from '@heroicons/react/outline';
 import LogoRapha from '../../../assets/images/logoFace.png';
@@ -7,10 +10,12 @@ import NavegationComponent from './NavegationComponent';
 import './index.scss';
 
 export default function Navbar() {
+  const navigation = i18n.t('navigation',{ returnObjects: true });
+
   
     return (  
         <Popover className="z-20 mt-3 pt-6 px-4 w-full h-20 lg:px-8">
-          <nav className="flex justify-between sm:h-10 lg:justify-start" aria-label="Global">
+          <nav className="flex lg:flex lg:justify-between sm:h-10" aria-label="Global">
             <div className="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0">
               <div className="flex items-center justify-between w-full md:w-auto">            
                 <img
@@ -27,6 +32,7 @@ export default function Navbar() {
               </div>
             </div>
             {/*Inicio dos Links de Navegação  */}
+                 
             <NavegationComponent />
           </nav>
 
@@ -41,15 +47,26 @@ export default function Navbar() {
         >
           <Popover.Panel
             focus
-            className="absolute z-10  inset-x-0 p-2 transition transform origin-top-right md:hidden"
+            className="absolute z-10 inset-x-0 p-2 transition transform origin-top-right md:hidden"
           >
-            <div className="rounded-lg shadow-md bg-white ring-1 ring-black ring-opacity-5 overflow-hidden">
-              <div className="px-5 pt-4 flex justify-end">
-                <div className="-mr-2">
-                  <Popover.Button className="popoverButton">
-                    <XIcon className="h-6 w-6" aria-hidden="true" />
-                  </Popover.Button>
-                </div>
+            <div className="rounded-lg shadow-md bg-white ring-1 ring-black ring-opacity-5 overflow-hidden flex">
+              <div className="flex flex-col">
+              {navigation.map((item) => (
+                <Link 
+                  key={item.name} 
+                  to={item.href} 
+                  className=" m-2 text-xl font-bold text-gray-500 hover:text-gray-900 hover:bg-yellow-400"
+                  smooth={"easeInOutQuad"}
+                  duration={1500}
+                >
+                  {item.name}
+                </Link>
+              ))}           
+              </div>
+              <div className="absolute self-end justify-self-end right-2">
+                <Popover.Button className="popoverButton">
+                  <XIcon className="h-6 w-6" aria-hidden="true" />
+                </Popover.Button>              
               </div>
             </div>
           </Popover.Panel>

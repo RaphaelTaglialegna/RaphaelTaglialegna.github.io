@@ -10,7 +10,7 @@ export default function NavegationComponent(){
   const navigation = i18n.t('navigation',{ returnObjects: true });
 
   return (
-    <div className='w-full flex justify-between'>  
+    <div className='w-full lg:flex lg:justify-between'>  
       <div className="hidden md:block md:ml-10 md:pr-4 md:space-x-8 ">
             {navigation.map((item) => (
               <Link 
@@ -25,10 +25,11 @@ export default function NavegationComponent(){
             ))}           
                       
           </div>
-          <div>
+          <div className='absolute left-1/3 lg:left-0 lg:relative'>
           <ul>
           <li> 
             <a
+            className='text-2xl sm:text-3xl md:text-4xl lg:text-6xl'
             target='_blank'
             rel='noreferrer'
             href='https://www.linkedin.com/in/raphaeltaglialegna/'
@@ -38,6 +39,7 @@ export default function NavegationComponent(){
           </li>
           <li> 
             <a
+            className='mx-6 text-2xl sm:text-3xl md:text-4xl lg:text-6xl'
             target='_blank'
             rel='noreferrer'
             href='https://github.com/RaphaelTaglialegna'
@@ -47,6 +49,7 @@ export default function NavegationComponent(){
           </li>
           <li> 
             <a
+            className='text-2xl sm:text-3xl md:text-4xl lg:text-6xl'
             target='_blank'
             rel='noreferrer'
             href='https://www.instagram.com/raphaeltaglialegna'

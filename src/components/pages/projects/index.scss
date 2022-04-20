@@ -7,6 +7,22 @@
   padding: 0;
   margin: 0;
 }
+.alice-carousel__stage-item .__active .__target {
+  align-self: center;
+}
+
+.alice-carousel__stage-item.__active {
+	&:after {
+		content: '';
+		display: block;
+		top: 2px;
+		left: 2px;
+		right: 2px;
+		bottom: 2px;
+		border: solid 1px transparent;
+		transition: border .8s;
+	}
+}
 
 
 img {
@@ -22,16 +38,21 @@ img {
 .card {
   display: flex;
   flex-direction: column;
-  width: clamp(20rem, calc(20rem + 2vw), 22rem);
-  height: clamp(28rem, calc(28rem + 2vw), 30rem);;
+  width: 92%;
+  height: clamp(28rem, calc(28rem + 2vw), 30rem);
   overflow: hidden;
   box-shadow: 0 .2rem 2rem rgba(131, 129, 129, 0.1);
   border-radius: 1em;
   background: #ECE9E6;
   background: linear-gradient(to right, #FFFFFF, #ECE9E6);
-  margin: 0px 30px;
-  
+  transition: all 0.3s ease-in-out;
 
+}
+
+.alice-carousel__wrapper {
+  padding: 50px 0;
+  height: 100% !important;
+  margin: 0;
 }
 .card__body {
   padding: 1rem;
@@ -39,7 +60,6 @@ img {
   flex-direction: column;
   gap: .5rem;
 }
-
 
 .tag {
   align-self: flex-start;

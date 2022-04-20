@@ -3,7 +3,6 @@ import { useMediaQuery } from "react-responsive";
 import Navbar from "../../header/NavBar";
 import AnimatedLetters from "../../AnimatedLetters";
 import raphaMeditation from '../../../assets/images/raphaMeditation.png';
-import './index.scss'
 import { AboutContainer, ImageContainer, ParagraphAbout } from "./styled";
 import { i18n } from '../../translate/i18n'
 
@@ -25,8 +24,8 @@ function About() {
               />
             </div>}
           <div className="containerAbout" >
-            <main className="">
-              <div className="">
+            <main >
+              <div >
                 <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-4xl md:text-5xl">
                 <AnimatedLetters
                   letterClass='black text-animate-hover'
@@ -37,7 +36,7 @@ function About() {
                   strArray={titles.titleAbout}
                 />
                 </h1>
-                <div className="my-10 pb-5 overflow-auto">
+                <div className="my-4 lg:my-10 pb-5 overflow-auto">
                   
                   <ParagraphAbout>
                   {messages.about.p1}

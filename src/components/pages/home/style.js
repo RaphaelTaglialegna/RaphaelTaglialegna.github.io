@@ -3,7 +3,7 @@ import tw from "twin.macro";
 
 const HomeContainer = styled.div`
   ${tw`
-    width[85%]
+    w-full
     relative
     m-auto
     h-screen
@@ -11,8 +11,9 @@ const HomeContainer = styled.div`
     overflow-hidden
     flex-auto
     justify-center
-    lg:flex
     flex-col
+    lg:flex
+    lg:w-10/12
 
   `};
   .divContainer {
@@ -25,27 +26,32 @@ const HomeContainer = styled.div`
 const MainContent = styled.main`
   ${tw`
       z-0 
-      w-1/2 
-      h-full 
-      left-1
+      w-full 
+      h-1/2
+      lg:h-full 
       bottom-0
       flex 
       align-baseline 
       content-end 
-      justify-end      
+      justify-end
+      lg:w-1/2      
   `};
   
   .div1 {
     ${tw`
-      m-auto sm:text-center lg:text-left
+      mx-auto my-auto lg:m-auto sm:text-center lg:text-left
     `};
   }
 
   .h1 {
     ${tw`
-     tracking-tight font-extrabold text-gray-900   `};
-    font-size: 3.5vw;
-    line-height: 1;
+     tracking-tight font-extrabold text-gray-900   
+     lg:text-6xl
+     lg:line-height[1]
+
+     `};
+    font-size: 30px;
+    line-height: 0.7;
   }
   
   .p1 {

@@ -13,14 +13,25 @@ const ContactContainer = styled.div`
     justify-center
     lg:flex
     flex-col
-    py-5
     `};
   .divContainer {
-    width: 80%;
     ${tw`
        h-full
        m-auto
+       w-full
+       lg:w-4/5 
       `};
+
+.containerContact { 
+  ${tw`
+      h-full
+      mt-2
+      mx-4
+      w-full
+      lg:w-1/2
+      lg:mt-20
+      `};
+}
   }
   `; 
 

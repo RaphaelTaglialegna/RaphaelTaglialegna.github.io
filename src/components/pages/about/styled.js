@@ -14,10 +14,26 @@ const AboutContainer = styled.div`
   .divContainer {
     width: 80%;
     ${tw`
-       h-full
-       m-auto
+      h-full
+      m-auto
+      w-full
+      lg:w-4/5  
       `};
 
+.containerAbout { 
+  ${tw`
+      h-full
+      mt-2
+      mx-4
+      w-full
+      lg:w-1/2
+      lg:mt-20
+      `};
+}
+
+.containerContent {
+  display: flex;
+}
   }
 `;
 

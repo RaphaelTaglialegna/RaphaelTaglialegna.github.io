@@ -18,12 +18,12 @@ ul {
   position: absolute;
 
   li {
+    
     a {
       padding: 0;
       display:  block;
-      font-size:  50px;
-      line-height: 16px;
-      margin: 0px 15px;
+      line-height: 15px;
+      margin: 0px 1vw;
 
       &:hover svg { 
         color: #ffd700;
