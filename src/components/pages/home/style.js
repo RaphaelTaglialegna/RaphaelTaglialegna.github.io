@@ -46,11 +46,13 @@ const MainContent = styled.main`
   .h1 {
     ${tw`
      tracking-tight font-extrabold text-gray-900   
-     lg:text-6xl
-     lg:line-height[1]
+     lg:text-4xl
+     lg:line-height[0.7]
+     xl:text-5xl
+     2xl:text-6xl
 
      `};
-    font-size: 30px;
+    font-size: 30px; 
     line-height: 0.7;
   }
   

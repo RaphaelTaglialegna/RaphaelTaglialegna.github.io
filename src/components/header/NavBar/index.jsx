@@ -14,10 +14,10 @@ export default function Navbar() {
 
   
     return (  
-        <Popover className="z-20 mt-3 pt-6 px-4 w-full h-20 lg:px-8">
-          <nav className="flex lg:flex lg:justify-between sm:h-10" aria-label="Global">
-            <div className="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0">
-              <div className="flex items-center justify-between w-full md:w-auto">            
+        <Popover className="z-20 mt-3 pt-6 px-4 w-full h-20  lg:px-8">
+          <nav className="flex" aria-label="Global">
+            <div className="">
+              <div className="flex items-center justify-between md:w-auto">            
                 <img
                     className="lg:w-20 w-10"
                     src={LogoRapha}
@@ -31,8 +31,7 @@ export default function Navbar() {
                 </div>
               </div>
             </div>
-            {/*Inicio dos Links de Navegação  */}
-                 
+            {/*Inicio dos Links de Navegação  */}                 
             <NavegationComponent />
           </nav>
 
@@ -47,7 +46,7 @@ export default function Navbar() {
         >
           <Popover.Panel
             focus
-            className="absolute z-10 inset-x-0 p-2 transition transform origin-top-right md:hidden"
+            className="absolute z-10 inset-x-0 p-2 transition transform origin-top-right  md:hidden"
           >
             <div className="rounded-lg shadow-md bg-white ring-1 ring-black ring-opacity-5 overflow-hidden flex">
               <div className="flex flex-col">

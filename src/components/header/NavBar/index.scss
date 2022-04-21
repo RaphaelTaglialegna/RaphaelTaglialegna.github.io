@@ -8,16 +8,15 @@
   focus:ring-indigo-500
 }
 
-ul {
+.socialIcons {
   display: flex;
   padding: 0;
   list-style: none;
   text-align: center;
   margin: 0;
   right: 1;
-  position: absolute;
 
-  li {
+  .socialIconContainer {
     
     a {
       padding: 0;

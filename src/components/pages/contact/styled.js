@@ -24,14 +24,28 @@ const ContactContainer = styled.div`
 
 .containerContact { 
   ${tw`
-      h-full
-      mt-2
-      mx-4
-      w-full
-      lg:w-1/2
-      lg:mt-20
-      `};
-}
+    lg:w-1/2
+    lg:h-full
+    w-full
+    h-1/2
+    lg:right-2
+    absolute
+    flex
+    justify-center
+  `};
+  z-index: 0;
+  opacity: 1;
+  bottom: 0;
+    img { 
+      ${tw`
+        absolute
+        h-4/5
+        lg:h-auto        
+      `}
+    bottom: 0;
+    z-index: 1;
+      }
+    }
   }
   `; 
 

@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "../../header/NavBar"; 
 import { projects } from "../../helpers/projects";
 import { FaGithub } from "react-icons/fa";
-import { ButtonProjects, ProjectSectionWrapper, ProjectsSectionContainer } from "./style";
+import { ButtonProjects, CardProject, ProjectSectionWrapper, ProjectsSectionContainer } from "./style";
 import './index.scss'
 import ReactCarousel from 'react-alice-carousel';
 import 'react-alice-carousel/lib/alice-carousel.css';
@@ -70,14 +70,14 @@ const sliderOptions = {
             <ProjectSectionWrapper >    
               < ReactCarousel
               alice-carousel
-              autoWidth  
+              autoHeight
               infinite
               disableDotsControls={true} 
               {...sliderOptions}
               controlsStrategy="alternate" 
               items= {projects.map((project, idx) => {
                   return (                                      
-                    <div class="card item" onDragStart={handleDragStart} data-value={idx + 1} role="presentation">
+                    <CardProject class="item" onDragStart={handleDragStart} data-value={idx + 1} role="presentation">
                       <div class="card__header">
                         <img src={project.img} alt={project.name} class="card__image" width="600" />
                       </div>
@@ -99,7 +99,7 @@ const sliderOptions = {
                             </ButtonProjects>
                           </div>
                       </div>
-                    </div>
+                    </CardProject>
                 )})} />
             </ProjectSectionWrapper>
           </main>

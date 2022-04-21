@@ -57,7 +57,7 @@ function Home() {
             </div>
           </MainContent>
       
-        <ImageEffect className=" lg:w-1/2 w"/>
+        <ImageEffect />
         </div>
     </HomeContainer>
   );

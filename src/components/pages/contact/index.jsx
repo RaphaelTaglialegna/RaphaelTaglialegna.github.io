@@ -45,7 +45,7 @@ export default function Contact() {
         <div className="flex h-full">
           <main className="h-full w-full lg:w-1/2 mt-10 mx-2">
             <div className="lg:w-full w-11/12">
-              <h1 className="text-4xl tracking-tight font-extrabold text-white sm:text-5xl md:text-6xl">
+              <h1 className="text-4xl tracking-tight font-extrabold text-white lg:text-4xl xl:text-5xl 2xl:text-6xl">
                 <AnimatedLetters
                   letterClass='white text-animate-hover'
                   strArray={titles.titleLets}
@@ -91,9 +91,8 @@ export default function Contact() {
           </main>        
         
         {isBigScreen &&
-          <div className="containerContact w-full h-full" >
+          <div className="containerContact" >
           <img
-            className="w-full h-full"
             src={contactRapha}
             alt="Raphael Taglialegna"
             />
